@@ -28,14 +28,9 @@ def loginTwo():
             print ('Welcome')
         else:
             print('User Does Not Exist..')
+loginTwo()
 #now create the Mess Matrix
 def messMatrix(password):
 # have the matrix loop through the chars
     random = random.randint(0,15) + len(password)
     
-
-
-
-
-
-loginTwo()
