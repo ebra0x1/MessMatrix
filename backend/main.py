@@ -47,7 +47,6 @@ def messMatrix(password):
         return False
 
 
-
 def printMatrice(passwordChar, randNum):
     if randNum == 0:
         print("\n Is your password char in this matrice?\n")
@@ -65,9 +64,5 @@ def printMatrice(passwordChar, randNum):
         print("N|N|N")
         print("N|N|N")
         return input("\n[Y]es or [N]o?: ")
-
-
-
-
 
 login()
