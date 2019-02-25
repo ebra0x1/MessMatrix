@@ -33,4 +33,7 @@ loginTwo()
 def messMatrix(password):
 # have the matrix loop through the chars
     random = random.randint(0,15) + len(password)
-    
+
+
+
+messMatrix()
