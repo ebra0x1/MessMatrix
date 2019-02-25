@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head runat="server">
+    <title>BodyComp Login</title>
+    <style type="text/css">
+        .auto-style1 {
+            height: 23px;
+        }
+        .auto-style2 {
+            width: 40%;
+            margin-left: 211px;
+            height: 231px;
+        }
+        .auto-style3 {
+            height: 23px;
+            width: 22px;
+        }
+        .auto-style4 {
+            width: 22px;
+        }
+        .auto-style6 {
+            margin-left: 0px;
+        }
+        .auto-style7 {
+            margin-left: 57px;
+        }
+        .auto-style10 {
+            width: 22px;
+            height: 58px;
+        }
+        .auto-style11 {
+            height: 58px;
+        }
+        .auto-style12 {
+            margin-left: 0px;
+            margin-bottom: 12px;
+        }
+        .auto-style13 {
+            width: 22px;
+            height: 47px;
+        }
+        .auto-style14 {
+            height: 47px;
+        }
+    </style>
+</head>
+<body>
+    <h2><b>Login</b></h2>
+    <form id="form1" runat="server">
+        <div>
+            <table class="auto-style2">
+                <tr>
+                    <td class="auto-style3">
+                        <asp:Label ID="lblUsername" runat="server" Text="Username:"></asp:Label>
+                    </td>
+                    <td class="auto-style1">
+                        <asp:TextBox ID="txtUsername" runat="server" CssClass="auto-style12" Width="434px"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style13">&nbsp;<asp:Label ID="lblPassword" runat="server" Text="Password:"></asp:Label>
+                    </td>
+                    <td class="auto-style14">
+                        <asp:TextBox ID="txtPassword" runat="server" Width="434px" TextMode="Password"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td>
+                        <asp:Button ID="btnLogin" runat="server" CssClass="auto-style6"  Text="Login" Width="444px" />
+                        </td>
+                </tr>
+                <tr>
+                    <td class="auto-style13"></td>
+                    <td class="auto-style14">
+                        <asp:Button ID="btnCreateUser" runat="server" CssClass="auto-style6" Text="Create New User" Width="444px"  />
+                    </td>
+                </tr>
+                <tr>
+                   <td class="auto-style10"></td>
+                    <td class="auto-style11">
+                         <asp:Button ID="btnchangePassword" runat="server" CssClass="auto-style6" Text="Change Password" Width="444px" />
+                    </td>
+                </tr>
+                <tr>
+                   <td class="auto-style7"></td>
+                    <td>
+                         <asp:Button ID="btnTestMess" runat="server" CssClass="auto-style5" Text="Test The Mess Matrix" Width="444px" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <asp:Label ID="lblStatus" runat="server"></asp:Label>
+    </form>
+</body>
+</html>
