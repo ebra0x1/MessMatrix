@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 
 from userDatabase import Base, User
 
-engine = create_engine('sqlite:///sqlalchemy_messMatrix.db')
+engine = create_engine('sqlite3:///sqlalchemy_messMatrix.db')
 # Bind the engine to the metadata of the Base class so that the
 # declaratives can be accessed through a DBSession instance
 Base.metadata.bind = engine
