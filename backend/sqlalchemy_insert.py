@@ -19,6 +19,6 @@ DBSession = sessionmaker(bind = engine)
 session = DBSession()
 
 # Insert a User in the user table
-new_user = User(username = 'P4YDay', password = 'theBestPasswordEver420', email = 'scriptkiddy@aol.com')
+new_user = User(username = 'P4yDay', password = 'theBestPasswordEver420', email = 'scriptkiddy@aol.com')
 session.add(new_user)
 session.commit()
