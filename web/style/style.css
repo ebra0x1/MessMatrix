@@ -166,10 +166,12 @@ ul#menu li a
 
 ul#menu li.selected a
 { height: 20px;
+    border-radius: 5px;
   padding: 6px 35px 5px 28px;}
 
 ul#menu li.selected
 { margin: 1px 2px 0 0;
+    border-radius: 5px;
   background: #E7746F;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
