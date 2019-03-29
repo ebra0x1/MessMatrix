@@ -96,16 +96,12 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #1d1d1d url(pattern.png) repeat;
-  border-bottom: 2px solid #E7746F;
-  height: 177px;}
-  
-#banner
-{ background: transparent url(banner.jpg) no-repeat;
-  width: 870px;
-  height: 180px;
+{ background: transparent url(lockbanner.jpg) no-repeat;
+  background-size: 100% 110%;
   margin-bottom: 20px;
-  border: 5px solid #E7746F;}
+  border-bottom: 5px solid #E7746F;}
+
+  
 
 #logo
 { width: 880px;
