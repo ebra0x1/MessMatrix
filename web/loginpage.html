@@ -2,50 +2,36 @@
 
 <head runat="server">
     <title>The Mess Log In</title>
-    <style type="text/css">
-        .auto-style1 {
-            height: 23px;
-        }
-        .auto-style2 {
-            width: 40%;
-            margin-left: 211px;
-            height: 231px;
-        }
-        .auto-style3 {
-            height: 23px;
-            width: 22px;
-        }
-        .auto-style4 {
-            width: 22px;
-        }
-        .auto-style6 {
-            margin-left: 0px;
-        }
-        .auto-style7 {
-            margin-left: 57px;
-        }
-        .auto-style10 {
-            width: 22px;
-            height: 58px;
-        }
-        .auto-style11 {
-            height: 58px;
-        }
-        .auto-style12 {
-            margin-left: 0px;
-            margin-bottom: 12px;
-        }
-        .auto-style13 {
-            width: 22px;
-            height: 47px;
-        }
-        .auto-style14 {
-            height: 47px;
-        }
-    </style>
+    <meta name="description" content="website description" />
+    <meta name="keywords" content="website keywords, website keywords" />
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
+
 <body>
-    <h2><b>The Mess Matrix Log In</b></h2>
+
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+                <div id="logo_text">
+                    <!-- class="logo_colour", allows you to change the colour of the text -->
+                    <h1><a href="loginpage.html"><strong>The Mess Matrix Log In</strong></span></a></h1>
+                </div>
+            </div>
+            <div id="menubar">
+                <ul id="menu">
+                    <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="examples.html">Examples</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="selected"><a href="loginpage.html"> The Mess Login Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
     <form id="form1" runat="server">
         <div>
             <table class="auto-style2">
@@ -93,4 +79,12 @@
         <asp:Label ID="lblStatus" runat="server"></asp:Label>
     </form>
 </body>
+
+<div id="content_footer"></div>
+    <div id="footer">
+        <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="contact.html">Contact Us</a> | <a href="about.html">About</a> | <a href="loginpage.html">The Mess Log In</a></p>
+        <p>&copy The Mess 2019 </p>
+        </div>
+</div>
+
 </html>

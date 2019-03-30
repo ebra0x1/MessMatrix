@@ -17,22 +17,25 @@ p
 img
 { border: 0;}
 
-h1, h2, h3, h4, h5, h6 
+h1,  h3, h4, h5, h6 
 { color: #E7746F;
   letter-spacing: 0em;
   padding: 0 0 5px 0;}
 
+  
 h1, h2, h3
 { font: normal 170% 'century gothic', arial;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
-{ font-size: 160%;
+{ color:rgb(124, 124, 218);
+  font-size: 160%;
   padding: 9px 0 5px 0;}
 
 h3
 { font-size: 140%;
+  font-style:italic;
   padding: 5px 0 0 0;}
 
 h4, h6
@@ -168,10 +171,12 @@ ul#menu li a
 ul#menu li.selected a
 { height: 20px;
     border-radius: 5px;
-  padding: 6px 35px 5px 28px;}
+  padding: 6px 35px 5px 28px;
+
+}
 
 ul#menu li.selected
-{ margin: 1px 2px 0 0;
+{ margin: 1px 2px 0 2px;
     border-radius: 5px;
   background: #E7746F;}
 
@@ -330,3 +335,42 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+  .auto-style1 {
+    height: 23px;
+}
+.auto-style2 {
+    width: 40%;
+    margin-left: 211px;
+    height: 231px;
+}
+.auto-style3 {
+    height: 23px;
+    width: 22px;
+}
+.auto-style4 {
+    width: 22px;
+}
+.auto-style6 {
+    margin-left: 0px;
+}
+.auto-style7 {
+    margin-left: 57px;
+}
+.auto-style10 {
+    width: 22px;
+    height: 58px;
+}
+.auto-style11 {
+    height: 58px;
+}
+.auto-style12 {
+    margin-left: 0px;
+    margin-bottom: 12px;
+}
+.auto-style13 {
+    width: 22px;
+    height: 47px;
+}
+.auto-style14 {
+    height: 47px;
+}
