@@ -18,7 +18,7 @@ class User(Base):
 
 # Create an engine that stores data in the local directory's
 # sqlalchemy_messMatrix.db file.
-engine = create_engine('sqlite:///sqlalchemy_messMatrix.db')
+engine = create_engine('sqlite3:///sqlalchemy_messMatrix.db')
 
 # Create all tables in the engine. This is equivalent to "Create Table"
 # statements in raw SQL.

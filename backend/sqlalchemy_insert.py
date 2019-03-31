@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 
 from userDatabase import Base, User
 
-engine = create_engine('sqlite:///sqlalchemy_messMatrix.db')
+engine = create_engine('sqlite3:///sqlalchemy_messMatrix.db')
 # Bind the engine to the metadata of the Base class so that the
 # declaratives can be accessed through a DBSession instance
 Base.metadata.bind = engine
@@ -19,6 +19,6 @@ DBSession = sessionmaker(bind = engine)
 session = DBSession()
 
 # Insert a User in the user table
-new_user = User(username = 'P4YDay', password = 'theBestPasswordEver420', email = 'scriptkiddy@aol.com')
+new_user = User(username = 'P4yDay', password = 'theBestPasswordEver420', email = 'scriptkiddy@aol.com')
 session.add(new_user)
 session.commit()
