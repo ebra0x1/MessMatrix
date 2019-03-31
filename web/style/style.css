@@ -17,36 +17,42 @@ p
 img
 { border: 0;}
 
-h1, h2, h3, h4, h5, h6 
+h1,h2,  h3,h4, h5, h6 
 { color: #E7746F;
   letter-spacing: 0em;
   padding: 0 0 5px 0;}
 
+  
 h1, h2, h3
 { font: normal 170% 'century gothic', arial;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;}
 
 h2
-{ font-size: 160%;
+{ color:#405580;
+  font-size: 160%;
   padding: 9px 0 5px 0;}
 
 h3
 { font-size: 140%;
+  font-style:italic;
   padding: 5px 0 0 0;}
 
-h4, h6
+
+ h6
 { color: #009FBC;
   padding: 0 0 5px 0;
   font: normal 110% arial;
   text-transform: uppercase;}
 
-h5, h6
+h4,h5, h6
 { color: #888;
   font: normal 95% arial;
   letter-spacing: normal;
   padding: 0 0 15px 0;}
-
+h4{
+    font-size:130%;
+}
 a, a:hover
 { outline: none;
   text-decoration: underline;
@@ -96,16 +102,12 @@ ol li
   margin-right: auto;}
 
 #header
-{ background: #1d1d1d url(pattern.png) repeat;
-  border-bottom: 2px solid #E7746F;
-  height: 177px;}
-  
-#banner
-{ background: transparent url(banner.jpg) no-repeat;
-  width: 870px;
-  height: 180px;
+{ background: transparent url(lockbanner.jpg) no-repeat;
+  background-size: 100% 110%;
   margin-bottom: 20px;
-  border: 5px solid #E7746F;}
+  border-bottom: 5px solid #E7746F;}
+
+  
 
 #logo
 { width: 880px;
@@ -151,17 +153,19 @@ ul#menu
 
 ul#menu li
 { float: left;
-  padding: 0 0 0 9px;
+  padding: 0;
   list-style: none;
-  margin: 1px 2px 0 0;
+  margin: 1px 2px 0px 2px;
   background: transparent;}
 
 ul#menu li a
 { font: normal 100% 'trebuchet ms', sans-serif;
   display: block; 
   float: left; 
+  border-radius: 5px;
   height: 20px;
-  padding: 6px 35px 5px 28px;
+  padding: 6px 28px 5px 28px;
+  
   text-align: center;
   color: #FFF;
   text-decoration: none;
@@ -169,10 +173,15 @@ ul#menu li a
 
 ul#menu li.selected a
 { height: 20px;
-  padding: 6px 35px 5px 28px;}
+    border-radius: 5px;
+    padding: 6px 28px 5px 28px;
+
+}
 
 ul#menu li.selected
-{ margin: 1px 2px 0 0;
+{ margin: 1px 2px 0 2px;
+    border-radius: 5px;
+    
   background: #E7746F;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
@@ -180,8 +189,12 @@ ul#menu li.selected a, ul#menu li.selected a:hover
   color: #FFF;}
 
 ul#menu li a:hover
-{ color: #FFF;
-  background: #E7746F;}
+{ 
+    color: #FFF;
+    padding:6px 28px 5px 28px;
+    background: #E7746F;
+    transition: 0.3s;
+}
 
 #site_content
 { width: 880px;
@@ -214,6 +227,10 @@ ul#menu li a:hover
   padding: 0 15px;
   width: 192px;}
 
+.sidebar_item a{
+    text-decoration: none;
+}
+
 .sidebar li a.selected
 { color: #444;} 
 
@@ -224,6 +241,7 @@ ul#menu li a:hover
 { text-align: left;
   width: 620px;
   padding: 0 0 0 5px;
+  margin-bottom:50px;
   float: left;}
   
 #content ul
@@ -300,16 +318,15 @@ ul#menu li a:hover
 { font: 100% arial; 
   width: 299px;}
 
-.form_settings select
-{ width: 310px;}
-
 .form_settings .checkbox
 { margin: 4px 0; 
   padding: 0; 
   width: 14px;
   border: 0;
   background: none;}
-
+.form_info{
+  text-align: center;
+}
 .separator
 { width: 100%;
   height: 0;
@@ -330,3 +347,42 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+  .auto-style1 {
+    height: 23px;
+}
+.auto-style2 {
+    width: 40%;
+    margin-left: 211px;
+    height: 231px;
+}
+.auto-style3 {
+    height: 23px;
+    width: 22px;
+}
+.auto-style4 {
+    width: 22px;
+}
+.auto-style6 {
+    margin-left: 0px;
+}
+.auto-style7 {
+    margin-left: 57px;
+}
+.auto-style10 {
+    width: 22px;
+    height: 58px;
+}
+.auto-style11 {
+    height: 58px;
+}
+.auto-style12 {
+    margin-left: 0px;
+    margin-bottom: 12px;
+}
+.auto-style13 {
+    width: 22px;
+    height: 47px;
+}
+.auto-style14 {
+    height: 47px;
+}
