@@ -189,9 +189,12 @@ ul#menu li.selected a, ul#menu li.selected a:hover
   color: #FFF;}
 
 ul#menu li a:hover
-{ color: #FFF;
+{ 
+    color: #FFF;
     padding:6px 28px 5px 28px;
-  background: #E7746F;}
+    background: #E7746F;
+    transition: 0.3s;
+}
 
 #site_content
 { width: 880px;
