@@ -17,7 +17,7 @@ p
 img
 { border: 0;}
 
-h1,  h3, h4, h5, h6 
+h1,h2,  h3,h4, h5, h6 
 { color: #E7746F;
   letter-spacing: 0em;
   padding: 0 0 5px 0;}
@@ -29,7 +29,7 @@ h1, h2, h3
   padding: 15px 0 5px 0;}
 
 h2
-{ color:rgb(124, 124, 218);
+{ color:#405580;
   font-size: 160%;
   padding: 9px 0 5px 0;}
 
@@ -38,18 +38,21 @@ h3
   font-style:italic;
   padding: 5px 0 0 0;}
 
-h4, h6
+
+ h6
 { color: #009FBC;
   padding: 0 0 5px 0;
   font: normal 110% arial;
   text-transform: uppercase;}
 
-h5, h6
+h4,h5, h6
 { color: #888;
   font: normal 95% arial;
   letter-spacing: normal;
   padding: 0 0 15px 0;}
-
+h4{
+    font-size:130%;
+}
 a, a:hover
 { outline: none;
   text-decoration: underline;
@@ -218,6 +221,10 @@ ul#menu li a:hover
 { background: url(side_back.png) repeat-y;
   padding: 0 15px;
   width: 192px;}
+
+.sidebar_item a{
+    text-decoration: none;
+}
 
 .sidebar li a.selected
 { color: #444;} 
