@@ -104,10 +104,7 @@ ol li
 #header
 { background: transparent url(lockbanner.jpg) no-repeat;
   background-size: 100% 110%;
-  margin-bottom: 20px;
-  border-bottom: 5px solid #E7746F;}
-
-  
+  margin-bottom: 20px;}
 
 #logo
 { width: 880px;
@@ -261,8 +258,8 @@ ul#menu li a:hover
   height: 80px;
   padding: 28px 0 5px 0;
   text-align: center; 
-  background: transparent url(pattern.png) repeat;
-  border-top: 2px solid #E7746F;
+  /*background: transparent url(pattern.png) repeat;*/
+  background: rgb(21, 38, 63);
   color: #FFF;}
 
 #footer p
@@ -310,6 +307,7 @@ ul#menu li a:hover
   margin: 0 0 0 212px; 
   height: 33px;
   padding: 2px 0 3px 0;
+  border-radius: 5px;
   cursor: pointer; 
   background: #E7746F; 
   color: #FFF;}
@@ -350,9 +348,12 @@ table tr td
   .auto-style1 {
     height: 23px;
 }
+#form1{
+    
+}
 .auto-style2 {
     width: 40%;
-    margin-left: 211px;
+    margin-left:450px;
     height: 231px;
 }
 .auto-style3 {
