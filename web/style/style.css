@@ -104,10 +104,7 @@ ol li
 #header
 { background: transparent url(lockbanner.jpg) no-repeat;
   background-size: 100% 110%;
-  margin-bottom: 20px;
-  border-bottom: 5px solid #E7746F;}
-
-  
+  margin-bottom: 20px;}
 
 #logo
 { width: 880px;
@@ -261,8 +258,8 @@ ul#menu li a:hover
   height: 80px;
   padding: 28px 0 5px 0;
   text-align: center; 
-  background: transparent url(pattern.png) repeat;
-  border-top: 2px solid #E7746F;
+  /*background: transparent url(pattern.png) repeat;*/
+  background: rgb(21, 38, 63);
   color: #FFF;}
 
 #footer p
@@ -310,6 +307,7 @@ ul#menu li a:hover
   margin: 0 0 0 212px; 
   height: 33px;
   padding: 2px 0 3px 0;
+  border-radius: 5px;
   cursor: pointer; 
   background: #E7746F; 
   color: #FFF;}
@@ -350,39 +348,63 @@ table tr td
   .auto-style1 {
     height: 23px;
 }
-.auto-style2 {
-    width: 40%;
-    margin-left: 211px;
-    height: 231px;
+
+.login-box{
+    width:280px;
+    position:absolute;
+    color:steelblue;
+    padding: 20px;
+    border-radius:5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
 }
-.auto-style3 {
-    height: 23px;
-    width: 22px;
+.login-box h2{
+    text-align:center;
+    font-size: 40px;
+    margin-bottom:10px;
+    padding:13px 0;
 }
-.auto-style4 {
-    width: 22px;
+.textbox{
+    width:100%;
+    overflow:hidden;
+    font-size:20px;
+    padding: 8px 0;
+    margin:8px 0;
+    background: #ddd;
+    color:black;
+    border:1px solid;
+    border-radius:5px;
 }
-.auto-style6 {
-    margin-left: 0px;
+.textbox i{
+    width:26px;
+    float:left;
+    text-align:center;
+    color:black;
 }
-.auto-style7 {
-    margin-left: 57px;
+.textbox input{
+    border:none;
+    outline:none;
+    background:none;
+    color:black;
+    font-size:18px;
+    width:220px;
+    float:left;
+    margin:0 10px;
 }
-.auto-style10 {
-    width: 22px;
-    height: 58px;
+.login_button{
+    width:100%;
+    border:1px solid;
+    padding:8px;
+    font-size:18px;
+    cursor:pointer;
+    margin:12px 0;
+    background:#009FBC;
+    border-radius:5px;
 }
-.auto-style11 {
-    height: 58px;
-}
-.auto-style12 {
-    margin-left: 0px;
-    margin-bottom: 12px;
-}
-.auto-style13 {
-    width: 22px;
-    height: 47px;
-}
-.auto-style14 {
-    height: 47px;
+.login-box a{
+    color:#E7746F;
+    text-decoration: none;
+    margin: 20px;
 }
