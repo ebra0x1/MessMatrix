@@ -403,6 +403,10 @@ table tr td
     background:#009FBC;
     border-radius:5px;
 }
+.login_button:hover{
+    background:rgb(1, 207, 243);
+    transition: 0.3s;
+}
 .login-box a{
     color:#E7746F;
     text-decoration: none;
